@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хятад-Монгол толь бичиг</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="favicon.ico" sizes="any"> <!-- Fallback for .ico -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml"> <!-- For modern browsers -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"> <!-- For iOS/Safari -->
+    <link rel="manifest" href="site.webmanifest"> <!-- For PWA -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <h1 id="home-link">Хятад-Монгол толь бичиг</h1>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Хайх утгаа оруулна уу...">
+                <button id="search-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <div id="home-page" class="home-page">
+                <div class="app-info">
+                    <h2>Хятад-Монгол толь бичиг</h2>
+                    <p>Хайлт хийхийн тулд дээрх хайлтын хэсэгт үгээ бичнэ үү.</p>
+                    <p>Санал болон хүсэлтийг "Холбоо Барих" хэсэг дээрх байрлах хаягуудаар санал хүсэлтийг илгээнэ үү.</p>
+                </div>
+                <div class="contact-info">
+                    <h3>Холбоо барих</h3>
+                    <div class="social-links">
+                        <a href="mailto:bing2671@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="https://facebook.com/MnKhByR3/" target="_blank" class="social-link">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a>
+                        <a href="https://www.instagram.com/_mnkhbyr_/" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                        <a href="https://youtube.com/@Gustwav" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="dictionary-results" class="dictionary-results">
+                <!-- Results will be inserted here by JavaScript -->
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 Хятад-Монгол толь бичиг. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js" type="module"></script>
+    <button id="back-to-top" title="Go to top">↑</button>
+</body>
+</html>
