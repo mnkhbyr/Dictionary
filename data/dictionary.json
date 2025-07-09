@@ -532,4 +532,20 @@
           }
       ]
   }
+
+  {
+    "char": "9.28",
+    "pinyin": "Hairtaiiai",
+    "definitions": [
+      {
+        "meaning": "Bi chamd hairtai ingej medhuu ainn",
+        "examples": [
+          {
+            "chinese": "mwaaannn",
+            "mongolian": "loooobyouu shoo much"
+          }
+        ]
+      }
+    ]
+  }
 ]
